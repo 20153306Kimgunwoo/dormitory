@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="MMU 기숙사"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/mmu" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_out"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="외출/박 신청" />
+
+        <Button
+            android:id="@+id/btn_out_vi"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+
+            android:text="외출/박 현황확인" />
+
+        <Button
+            android:id="@+id/btn_point"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="상/벌점 조회" />
+
+        <Button
+            android:id="@+id/btn_comm"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="커뮤니티" />
+
+        <Button
+            android:id="@+id/btn_notice"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="공지" />
+
+        <Button
+            android:id="@+id/btn_qna"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="Q&amp;A" />
+
+    </GridLayout>
+
+</LinearLayout>
