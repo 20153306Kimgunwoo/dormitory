@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".GoingOut">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="외출/박 신청"
+        android:textColor="#0000FF"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="날짜 :" />
+
+        <EditText
+            android:id="@+id/g_date1"
+            android:layout_width="66dp"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/g_date2"
+            android:layout_width="66dp"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/g_date3"
+            android:layout_width="67dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="외출/박 :" />
+
+        <Spinner
+            android:id="@+id/g_kind"
+            android:layout_width="200dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="외출/박 사유 :" />
+
+    <EditText
+        android:id="@+id/g_contents"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:hint="내용을 입력하세요" />
+
+    <Button
+        android:id="@+id/btn_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="신청"/>
+
+</LinearLayout>

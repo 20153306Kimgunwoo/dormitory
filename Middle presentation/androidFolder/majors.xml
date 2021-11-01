@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name = "major">
+        <item>해양 컴퓨터 공학과</item>
+        <item>조선 해양 공학과</item>
+        <item>환경,생명 공학과</item>
+        <item>해양 건설 공학과</item>
+    </string-array>
+</resources>
